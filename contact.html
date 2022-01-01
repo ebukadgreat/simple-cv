@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Contact me</title>
+	</head>
+	<body>
+		<a href="index.html">Home Page</a>
+		<h3>My Contact details</h3>
+		<ul>
+			<li>Phone: +23490333882850</li>
+			<li>Email: ebuskelele@gmail.com</li>
+		</ul>
+		<h3>Contact Me</h3>
+		<form
+			action="mailto:ebuskelele@gmail.com"
+			method="post"
+			enctype="text/plain"
+		>
+			<label for="name">Name</label>
+			<input type="text" name="yourName" id="name" />
+			<br />
+			<br />
+			<label for="email">Email</label>
+			<input type="email" name="yourEmail" id="email" />
+			<br />
+			<br />
+			<label for="message">Message</label><br />
+			<textarea
+				name="yourMessage"
+				id="message"
+				cols="30"
+				rows="10"
+			></textarea>
+			<br />
+			<input type="submit" />
+		</form>
+	</body>
+</html>
